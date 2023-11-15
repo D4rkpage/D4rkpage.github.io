@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body,main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+body {
+    background-color: dimgray;
+    min-height: 100vh;
+    margin: 0;
+
+}
+main{
+    width: 920px;
+}
+img{
+    margin: 2px;
+    border-radius: 10px;
+}
+input{
+    position: fixed;
+    top: 48vh;
+    left: -30px;
+    background-color: darkslateblue;
+    border-radius: 10px;
+    border: 0;
+    width: 100px;
+    height: 40px;
+    rotate: -90deg;
+}
